@@ -1,11 +1,17 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package cmd
 
 import (
 	"os"
 
 	"github.com/fatih/color"
-	"github.com/snwfdhmp/duck/pkg/projects"
 	"github.com/spf13/cobra"
+
+	"github.com/sniperkit/snk.fork.snwfdhmp-duck/pkg/projects"
 )
 
 var (

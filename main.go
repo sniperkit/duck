@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright © 2017 NAME HERE <EMAIL ADDRESS>
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -16,11 +21,12 @@ package main
 
 import (
 	"github.com/fatih/color"
-	"github.com/snwfdhmp/duck/cmd"
-	"github.com/snwfdhmp/duck/pkg/data"
-	"github.com/snwfdhmp/duck/pkg/pkg"
-	"github.com/snwfdhmp/duck/pkg/projects"
 	"github.com/spf13/afero"
+
+	"github.com/sniperkit/snk.fork.snwfdhmp-duck/cmd"
+	"github.com/sniperkit/snk.fork.snwfdhmp-duck/pkg/data"
+	"github.com/sniperkit/snk.fork.snwfdhmp-duck/pkg/pkg"
+	"github.com/sniperkit/snk.fork.snwfdhmp-duck/pkg/projects"
 )
 
 var (

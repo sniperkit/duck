@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package cmd
 
 import (
@@ -5,13 +10,14 @@ import (
 
 	"github.com/fatih/color"
 	"github.com/go-ini/ini"
-	"github.com/snwfdhmp/duck/pkg/data"
 	"github.com/spf13/cobra"
+
+	"github.com/sniperkit/snk.fork.snwfdhmp-duck/pkg/data"
 )
 
 const (
 	DefaultRepoName = "core"
-	DefaultRepoURL  = "http://raw.githubusercontent.com/snwfdhmp/duck-core/master/"
+	DefaultRepoURL  = "http://raw.githubusercontent.com/sniperkit/snk.fork.snwfdhmp-duck-core/master/"
 )
 
 // repoCmd represents the repo command

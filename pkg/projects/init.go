@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package projects
 
 import (
@@ -7,8 +12,9 @@ import (
 
 	"github.com/fatih/color"
 	"github.com/go-ini/ini"
-	"github.com/snwfdhmp/duck/pkg/data"
 	"github.com/spf13/afero"
+
+	"github.com/sniperkit/snk.fork.snwfdhmp-duck/pkg/data"
 )
 
 var (

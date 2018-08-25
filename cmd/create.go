@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package cmd
 
 import (
@@ -7,9 +12,10 @@ import (
 	"path/filepath"
 
 	"github.com/fatih/color"
-	"github.com/snwfdhmp/duck/pkg/pkg"
-	"github.com/snwfdhmp/duck/pkg/projects"
 	"github.com/spf13/cobra"
+
+	"github.com/sniperkit/snk.fork.snwfdhmp-duck/pkg/pkg"
+	"github.com/sniperkit/snk.fork.snwfdhmp-duck/pkg/projects"
 )
 
 var (

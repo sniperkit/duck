@@ -1,12 +1,18 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package cmd
 
 import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/snwfdhmp/duck/pkg/data"
-	"github.com/snwfdhmp/duck/pkg/projects"
 	"github.com/spf13/cobra"
+
+	"github.com/sniperkit/snk.fork.snwfdhmp-duck/pkg/data"
+	"github.com/sniperkit/snk.fork.snwfdhmp-duck/pkg/projects"
 )
 
 var projectsCmd = &cobra.Command{
